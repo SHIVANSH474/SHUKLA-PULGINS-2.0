@@ -19,11 +19,11 @@ class HellClient(Client):
     def __init__(self) -> None:
         self.users: list[Client] = []
         self.bot: Client = Client(
-            name="Pbxbot 2.0",
+            name="HellBot",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
-            plugins=dict(root="Pbxbot 2.0.plugins.bot"),
+            plugins=dict(root="Hellbot.plugins.bot"),
         )
 
     async def start_user(self) -> None:
@@ -48,15 +48,15 @@ class HellClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/ll_THE_BAD_BOT_ll")
-                except:
-                    pass
-                    try:
-                    await client.join_chat("https://t.me/PBX_NETWORK")
+                    await client.join_chat("https://t.me/+wQyUMn4891Q2OTVh")
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/THE_DRAMA_CLUB_01")
+                    await client.join_chat("https://t.me/+wQyUMn4891Q2OTVh")
+                  except:
+                    pass
+                try:
+                    await client.join_chat("https://t.me/+P4Ekwk7P7Rk3NzA9")
                 except:
                     pass
             except Exception as e:
@@ -113,7 +113,7 @@ class HellClient(Client):
 
     async def start_message(self, version: dict) -> None:
         await self.bot.send_animation(
-            Config.LOGGER_ID,
+                        Config.LOGGER_ID,
             "https://telegra.ph/file/e85284816c46ce61d90de.mp4",
             f"**{Symbols.check_mark} PBX 2.0  𝗂𝗌 𝗇𝗈𝗐 𝖮𝗇𝗅𝗂𝗇𝖾!**\n\n"
             f"**{Symbols.triangle_right} 𝖢𝗅𝗂𝖾𝗇𝗍𝗌:** `{len(self.users)}`\n"
