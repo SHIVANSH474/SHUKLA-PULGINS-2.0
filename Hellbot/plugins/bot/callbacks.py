@@ -11,7 +11,7 @@ from . import HELP_MSG, START_MSG, Config, Symbols, hellbot
 async def check_auth_click(cb: CallbackQuery) -> bool:
     if cb.from_user.id not in Config.AUTH_USERS:
         await cb.answer(
-            "You are not authorized to use this bot. \n\n</> @Its_HellBot",
+            "You are not authorized to use this bot. \n\n</> @ll_THE_BAD_BOT_ll",
             show_alert=True,
         )
         return False
@@ -50,7 +50,7 @@ async def bot_help_menu_cb(_, cb: CallbackQuery):
 
     caption = (
         f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖥𝗂𝗅𝖾:** `{plugin}`\n"
-        f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{Config.BOT_HELP[plugin]['info']} 🍀__\n\n"
+        f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{Config.BOT_HELP[plugin]['info']} ❤️__\n\n"
         f"**📃 𝖫𝗈𝖺𝖽𝖾𝖽 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌:** `{len(sorted(Config.BOT_HELP[plugin]['commands']))}`"
     )
 
@@ -79,7 +79,7 @@ async def bot_help_cmd_cb(_, cb: CallbackQuery):
     result += (
         f"\n\n**{Symbols.arrow_right} 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** __{cmd_dict['description']}__"
     )
-    result += f"\n\n**<\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\> @ll_THE_BAD_BOT_ll ❤️**"
 
     buttons = [
         [
@@ -189,7 +189,7 @@ async def help_cmd_cb(_, cb: CallbackQuery):
     if cmd_dict["note"]:
         result += f"\n\n**{Symbols.arrow_right} 𝖭𝗈𝗍𝖾:** __{cmd_dict['note']}__"
 
-    result += f"\n\n**<\> @Its_HellBot 🍀**"
+    result += f"\n\n**<\> @ll_THE_BAD_BOT_ll ❤️**"
 
     buttons = [
         [
@@ -246,14 +246,14 @@ async def help_close_cb(_, cb: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton("🚀 Deploy", url="https://github.com/Badhacker98/PBX_2.0/fork"),
-                InlineKeyboardButton("Plugins 📂", url="https://t.me/II_BAD_MUNDA_II"),
+                InlineKeyboardButton("", url="https://t.me/II_BAD_MUNDA_II"),
             ],
             [
                 InlineKeyboardButton("❤️ ᴘʙx ɴᴇᴛᴡᴏʀᴋ 💕", url="https://t.me/ll_THE_BAD_BOT_ll"),
             ],
             [
-                InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),
-                InlineKeyboardButton("Updates 📣", url="https://t.me/Its_HellBot"),
+                InlineKeyboardButton("🎙️ Support", url="https://t.me/THE_DRAMA_CLUB_01"),
+                InlineKeyboardButton("Updates 📣", url="https://t.me/PBX_NETWORK"),
             ],
             [
                 InlineKeyboardButton("🔙", "help_data:start"),
@@ -262,11 +262,11 @@ async def help_close_cb(_, cb: CallbackQuery):
         ]
         await cb.edit_message_text(
             "__» The source code is available on GitHub. You can find the link below.__\n"
-            "__» Every project available under The-HellBot are open-source and free to use and modify to your needs.__\n"
+            "__» Every project available under Badhacker98 are open-source and free to use and modify to your needs.__\n"
             "__» Anyone pretending to be the developer of this bot and selling the code, is a scammer.__\n\n"
             "__» Please consider giving a star to the repository if you liked the project.__\n"
             "__» Feel free to contact us if you need any help regarding the source code.__\n\n"
-            "**❤️ @HellBot_Networks 🇮🇳**",
+            "**❤️ @ll_THE_BAD_BOT_ll ❤️**",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
         )
