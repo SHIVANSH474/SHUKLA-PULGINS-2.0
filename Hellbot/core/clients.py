@@ -52,10 +52,6 @@ class HellClient(Client):
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/+wQyUMn4891Q2OTVh")
-                  except:
-                    pass
-                try:
                     await client.join_chat("https://t.me/+P4Ekwk7P7Rk3NzA9")
                 except:
                     pass
