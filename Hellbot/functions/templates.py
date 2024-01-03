@@ -6,7 +6,7 @@ from Hellbot.core import ENV, db
 ALIVE_TEMPLATES = [
     (
         "•────────────────•\n"
-        "•       𝐇ᴇʟʟ𝐁ᴏᴛ 𝐈s 𝐀ʟɪᴠᴇ        •\n"
+        "•  𝐏ʙx 𝐁ᴏᴛ 2.0 𝐈s 𝐀ʟɪᴠᴇ        •\n"
         "╭────────────────•\n"
         "╰➢ ᴏᴡɴᴇʀ » {owner}\n"
         "╰➢ ᴘʏʀᴏɢʀᴀᴍ » {pyrogram}\n"
@@ -14,7 +14,7 @@ ALIVE_TEMPLATES = [
         "╰➢ ᴘʏᴛʜᴏɴ » {python}\n"
         "╰➢ ᴜᴘᴛɪᴍᴇ » {uptime}\n"
         "╰────────────────•\n"
-        "𝖡𝗒 © @HellBot_Networks\n"
+        "𝖡𝗒 © @ll_THE_BAD_BOT_ll\n"
         "•────────────────•\n"
     ),
 ]
@@ -263,7 +263,7 @@ USER_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍:** `{isBot}`
 **➢ 𝖡𝗂𝗈:** `{bio}`
 
-**</> @HellBot_Networks**
+**</> @ll_THE_BAD_BOT_ll**
 """
 ]
 
@@ -281,7 +281,7 @@ CHAT_INFO_TEMPLATES = [
 **➢ 𝖡𝗈𝗍𝗌:** `{botsCount}`
 **➢ 𝖣𝖾𝗌𝖼𝗋𝗂𝗉𝗍𝗂𝗈𝗇:** `{description}`
 
-**</> @HellBot_Networks**
+**</> @ll_THE_BAD_BOT_ll**
 """
 ]
 
