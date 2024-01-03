@@ -19,11 +19,11 @@ class HellClient(Client):
     def __init__(self) -> None:
         self.users: list[Client] = []
         self.bot: Client = Client(
-            name="HellBot",
+            name="Pbxbot 2.0",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
-            plugins=dict(root="Hellbot.plugins.bot"),
+            plugins=dict(root="Pbxbot 2.0.plugins.bot"),
         )
 
     async def start_user(self) -> None:
@@ -48,11 +48,15 @@ class HellClient(Client):
                         f"Client #{i+1}: '{me.first_name}' is not in Logger Group! Check and add manually for proper functioning."
                     )
                 try:
-                    await client.join_chat("https://t.me/+wQyUMn4891Q2OTVh")
+                    await client.join_chat("https://t.me/ll_THE_BAD_BOT_ll")
                 except:
                     pass
                 try:
-                    await client.join_chat("https://t.me/+P4Ekwk7P7Rk3NzA9")
+                    await client.join_chat("https://t.me/PBX_NETWORK")
+                 try:
+                    await client.join_chat("https://t.me/THE_DRAMA_CLUB_01")
+                except:
+                    pass
                 except:
                     pass
             except Exception as e:
