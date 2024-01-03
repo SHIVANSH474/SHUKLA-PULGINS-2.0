@@ -97,7 +97,7 @@ HelpMenu("voicechat").add(
     "startvc",
     "<vc name (optional)>",
     "Start a voice chat in the group with the given name (optional)",
-    "startvc Hellbot VC",
+    "startvc Pbxbot 2.0 VC",
     "Only admins with manage voice chats permission can use this command.",
 ).add(
     "endvc",
