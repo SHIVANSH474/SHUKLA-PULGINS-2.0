@@ -24,7 +24,9 @@ PING_TEMPLATES = [
 
     ⚘  **ѕρєє∂:** {speed} m/s
     ⚘  **υρтιмє:** {uptime}
-    ⚘  **σωиєя:** {owner}""",
+    ⚘  **σωиєя:** {owner}
+    <b><i>✬ <a href='https://t.me/ll_THE_BAD_BOT_ll'>✬🦋 𝐏ʙx 2.0 ❤️</a> ✬</i></b>
+""",
 ]
 
 HELP_MENU_TEMPLATES = [
