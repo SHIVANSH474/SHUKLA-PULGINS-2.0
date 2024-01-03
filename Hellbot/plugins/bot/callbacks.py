@@ -245,11 +245,11 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("🚀 Deploy", url="https://github.com/The-HellBot/HellBot"),
-                InlineKeyboardButton("Plugins 📂", url="https://github.com/The-HellBot/Plugins"),
+                InlineKeyboardButton("🚀 Deploy", url="https://github.com/Badhacker98/PBX_2.0/fork"),
+                InlineKeyboardButton("Plugins 📂", url="https://t.me/II_BAD_MUNDA_II"),
             ],
             [
-                InlineKeyboardButton("нєℓℓвσт ηєтωσяк 🇮🇳", url="https://t.me/HellBot_Networks"),
+                InlineKeyboardButton("❤️ ᴘʙx ɴᴇᴛᴡᴏʀᴋ 💕", url="https://t.me/ll_THE_BAD_BOT_ll"),
             ],
             [
                 InlineKeyboardButton("🎙️ Support", url="https://t.me/HellBot_Chats"),
