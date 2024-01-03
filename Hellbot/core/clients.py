@@ -110,7 +110,7 @@ class HellClient(Client):
     async def start_message(self, version: dict) -> None:
         await self.bot.send_animation(
             Config.LOGGER_ID,
-            "https://telegra.ph/file/24fbe407c297fc942037f.mp4",
+            "https://telegra.ph/file/e85284816c46ce61d90de.mp4",
             f"**{Symbols.check_mark} PBX 2.0  𝗂𝗌 𝗇𝗈𝗐 𝖮𝗇𝗅𝗂𝗇𝖾!**\n\n"
             f"**{Symbols.triangle_right} 𝖢𝗅𝗂𝖾𝗇𝗍𝗌:** `{len(self.users)}`\n"
             f"**{Symbols.triangle_right} 𝖯𝗅𝗎𝗀𝗂𝗇𝗌:** `{len(Config.CMD_MENU)}`\n"
@@ -127,7 +127,7 @@ class HellClient(Client):
                 [
                     [
                         InlineKeyboardButton("💫 Start Me", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 Repo", url="https://github.com/Badhacker98/PBX_2.0/fork"),
+                        InlineKeyboardButton("💖 Repo", url="https://github.com/badkopapabolo"),
                     ],
                     [
                         InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/PBX_NETWORK"),
