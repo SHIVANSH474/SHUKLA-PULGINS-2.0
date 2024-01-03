@@ -101,6 +101,6 @@ def start_button() -> list[list[InlineKeyboardButton]]:
     return [
         [
             InlineKeyboardButton("⚙️ Help", "help_data:bothelp"),
-            InlineKeyboardButton("Source 📦", "help_data:source"),
+            InlineKeyboardButton("Source ❤️", "help_data:source"),
         ]
     ]
