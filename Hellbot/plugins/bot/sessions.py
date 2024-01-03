@@ -46,7 +46,7 @@ async def new_session(_, message: Message):
 
     try:
         client = Client(
-            name="Hellbot",
+            name="Pbxbot 2.0",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             in_memory=True,
