@@ -150,7 +150,7 @@ HelpMenu("youtube").add(
     "ytlink",
     "<query>",
     "Search for a video on youtube.",
-    "ytlink the hellbot",
+    "ytlink the Pbxbot 2.0",
 ).info(
     "Youtube Downloader",
 ).done()
