@@ -31,7 +31,7 @@ class HelpMenu:
     def get_menu(self) -> str:
         result = f"**𝖯𝗅𝗎𝗀𝗂𝗇 𝖥𝗂𝗅𝖾:** `{self.filename}`"
         if self.command_info:
-            result += f"\n**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{self.command_info} 🍀__"
+            result += f"\n**𝖯𝗅𝗎𝗀𝗂𝗇 𝖨𝗇𝖿𝗈:** __{self.command_info} 😈__"
         result += "\n\n"
         for command in self.command_dict:
             command = self.command_dict[command]
