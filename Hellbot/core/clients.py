@@ -130,7 +130,7 @@ class HellClient(Client):
                         InlineKeyboardButton("💖 Repo", url="https://github.com/badkopapabolo"),
                     ],
                     [
-                        InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/PBX_NETWORK"),
+                        InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="BAD_KO_PAPA_BOLO_OR_REPO_LO 😈"),
                     ],
                 ]
             ),
