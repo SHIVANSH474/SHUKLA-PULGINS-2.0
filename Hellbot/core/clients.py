@@ -51,12 +51,12 @@ class HellClient(Client):
                     await client.join_chat("https://t.me/ll_THE_BAD_BOT_ll")
                 except:
                     pass
-                try:
+                    try:
                     await client.join_chat("https://t.me/PBX_NETWORK")
-                 try:
-                    await client.join_chat("https://t.me/THE_DRAMA_CLUB_01")
                 except:
                     pass
+                try:
+                    await client.join_chat("https://t.me/THE_DRAMA_CLUB_01")
                 except:
                     pass
             except Exception as e:
