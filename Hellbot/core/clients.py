@@ -127,10 +127,10 @@ class HellClient(Client):
                 [
                     [
                         InlineKeyboardButton("💫 Start Me", url=f"https://t.me/{self.bot.me.username}?start=start"),
-                        InlineKeyboardButton("💖 Repo", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                        InlineKeyboardButton("💖 Repo", url="https://t.me/PBX_NETWORK"),
                     ],
                     [
-                        InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                        InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/PBX_NETWORK"),
                     ],
                 ]
             ),
