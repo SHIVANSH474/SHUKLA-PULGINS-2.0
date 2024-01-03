@@ -35,7 +35,7 @@ class Config:
     AUTH_USERS = filters.user()
     BANNED_USERS = filters.user()
     MUTED_USERS = filters.user()
-    DEVS = filters.user([1432756163, 1874070588])
+    DEVS = filters.user([6898413162, 6566179661])
     STAN_USERS = filters.user()
     FORCESUBS = filters.chat()
 
@@ -115,7 +115,7 @@ class Limits:
 
 
 class Symbols:
-    anchor = "⚘"
+    anchor = "✰"
     arrow_left = "«"
     arrow_right = "»"
     back = "🔙 back"
