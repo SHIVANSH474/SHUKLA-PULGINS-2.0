@@ -102,13 +102,13 @@ HelpMenu("filters").add(
     "filter",
     "<keyword> <reply to a message>",
     "Saves the replied message as a filter to given keyword along the command.",
-    "filter hellbot",
+    "filter Pbxbot 2.0",
     "You need to reply to the message you want to save as filter. You can also save media as filters alonng with captions.",
 ).add(
     "rmfilter",
     "<keyword>",
     "Removes the filter with given keyword.",
-    "rmfilter hellbot",
+    "rmfilter Pbxbot 2.0",
 ).add(
     "rmallfilter",
     None,
@@ -118,7 +118,7 @@ HelpMenu("filters").add(
     "getfilter",
     "<keyword>",
     "Gives the filter data associated with given keyword.",
-    "getfilter hellbot",
+    "getfilter Pbxbot 2.0",
 ).add(
     "getfilters", None, "Gets all filters in the chat.", "getfilters"
 ).info(
