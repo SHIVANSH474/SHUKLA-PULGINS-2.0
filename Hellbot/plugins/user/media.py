@@ -113,7 +113,7 @@ async def memify(_, message: Message):
     await message.reply_sticker(memes[1])
     await message.reply_photo(
         memes[0],
-        caption=f"**🍀 𝖬𝖾𝗆𝗂𝖿𝗂𝖾𝖽 𝗎𝗌𝗂𝗇𝗀 𝖧𝖾𝗅𝗅𝖡𝗈𝗍!**",
+        caption=f"**🍀 𝖬𝖾𝗆𝗂𝖿𝗂𝖾𝖽 𝗎𝗌𝗂𝗇𝗀 PBXBOT 2.0!**",
     )
 
     os.remove(pic)
@@ -191,7 +191,7 @@ HelpMenu("media").add(
     "rename",
     "<reply to media message> <new file name>",
     "Rename a media file with the provided name.",
-    "rename HellBot.jpg",
+    "rename 𝐏ʙx 𝐁ᴏᴛ 2.0 .jpg",
     "The file name must have an extention.",
 ).info(
     "Media utils"
