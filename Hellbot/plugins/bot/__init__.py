@@ -27,12 +27,11 @@ __» Feel free to contact us if you need any help regarding the bot.__
 
 **❤️ @ll_THE_BAD_BOT_ll ❤️**
   
-"""USERBOT_DEPLOY ="""
-**★USERBOT DEPLOY★**
+  **★USERBOT DEPLOY★**
 
 **since i never mentioned how to activate userbot on your account. here's a little guide.
 
-1. After deployment is successful and bot is working you'll need to start the helper bot.
+1. deployment is successful and bot is working .
 
 2. send /session to your helper bot.
 
