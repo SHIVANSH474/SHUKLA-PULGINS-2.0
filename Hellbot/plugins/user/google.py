@@ -238,12 +238,12 @@ async def webScreenshot(_, message: Message):
     Driver.close(driver)
 
     with io.BytesIO(image) as result:
-        result.name = "Hellbot_Webshot.png"
+        result.name = "Pbxbot 2.0_Webshot.png"
         await hell.reply_document(result)
         await hell.delete()
 
     try:
-        os.remove("Hellbot_Webshot.png")
+        os.remove("Pbxbot 2.0_Webshot.png")
     except:
         pass
 
@@ -482,7 +482,7 @@ HelpMenu("google").add(
     "Searches for the given query on wikipedia.",
     "wikipedia keanu reeves",
 ).add(
-    "google", "<query>", "Searches for the given query on google.", "google the hellbot"
+    "google", "<query>", "Searches for the given query on google.", "google the Pbxbot 2.0"
 ).add(
     "reverse",
     "<reply to image/sticker>",
