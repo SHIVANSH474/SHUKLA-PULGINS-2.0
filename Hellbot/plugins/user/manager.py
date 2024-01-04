@@ -214,8 +214,8 @@ async def getLogs(_, message: Message):
     limit = int(message.command[1]) if len(message.command) > 1 else 100
 
     try:
-        if os.path.exists("HellBot.log"):
-            with open("HellBot.log", "r") as file:
+        if os.path.exists("Pbxbot 2.0.log"):
+            with open("Pbxbot 2.0.log", "r") as file:
                 logData = file.readlines()
                 logData = "".join(logData[-limit:])
             file.close()
