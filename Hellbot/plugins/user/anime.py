@@ -166,7 +166,7 @@ HelpMenu("anime").add(
     "anilistuser",
     "<username>",
     "Get a detailed information about the mentioned anilist user.",
-    "anilistuser meizhellboy",
+    "anilistuser Badhacker98",
     "You can also use 'aniuser' as alias",
 ).add(
     "filler",
