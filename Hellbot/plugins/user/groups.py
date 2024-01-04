@@ -353,16 +353,16 @@ HelpMenu("groups").add(
     "setgusername",
     "<username>",
     "Set the group username.",
-    "setgusername HellBot_Chats",
+    "setgusername ll_THE_BAD_BOT_ll",
     "Only group owners can use this command. Give username without '@'.",
 ).add(
     "getglink", None, "Get the group invite link.", "getglink"
 ).add(
     "kickme", None, "Leave the chat in swag 😎!", "kickme"
 ).add(
-    "newgroup", "<title>", "Create a new group.", "newgroup HellBot Group"
+    "newgroup", "<title>", "Create a new group.", "newgroup Pbxbot 2.0 Group"
 ).add(
-    "newchannel", "<title>", "Create a new channel.", "newchannel HellBot Channel"
+    "newchannel", "<title>", "Create a new channel.", "newchannel Pbxbot 2.0 Channel"
 ).add(
     "chatinfo", "<chat id (optional)>", "Get info about the chat.", "chatinfo"
 ).add(
