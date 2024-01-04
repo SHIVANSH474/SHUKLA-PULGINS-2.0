@@ -20,10 +20,26 @@ START_MSG = """
 """
 
 HELP_MSG = """
-**⚙️ 𝖧𝖾𝗅𝗉:**
+**⚙️ 𝖧𝖾𝗅𝗉★**
 
 __» All commands are categorized and you can use these buttons below to navigate each category and get respective commands.__
 __» Feel free to contact us if you need any help regarding the bot.__
+
+**❤️ @ll_THE_BAD_BOT_ll ❤️**
+
+**★USERBOT DEPLOY★**
+
+since i never mentioned how to activate userbot on your account. here's a little guide.
+
+1. After deployment is successful and bot is working you'll need to start the helper bot.
+
+2. send /session to your helper bot.
+
+3. now click on "new" button and add your account.
+
+4. follow all the prompts and do the needful.
+
+5. restart the bot with /restart command.
 
 **❤️ @ll_THE_BAD_BOT_ll ❤️**
 """
