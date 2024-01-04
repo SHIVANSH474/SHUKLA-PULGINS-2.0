@@ -89,7 +89,7 @@ HelpMenu("logo").add(
     "logo",
     "<reply to image (optional)> <text>",
     "Make a logo with text. You can also reply to an image to use it as a background. You can also specify a theme by using `--` after the text.",
-    "logo The HellBot --supra",
+    "logo Badhacker98 --supra",
     "This command uses Unsplash API to get images.",
 ).add(
     "setfont",
