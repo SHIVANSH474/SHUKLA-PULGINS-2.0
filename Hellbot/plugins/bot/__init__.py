@@ -30,7 +30,7 @@ __» Feel free to contact us if you need any help regarding the bot.__
 """USERBOT_DEPLOY ="""
 **★USERBOT DEPLOY★**
 
-since i never mentioned how to activate userbot on your account. here's a little guide.
+**since i never mentioned how to activate userbot on your account. here's a little guide.
 
 1. After deployment is successful and bot is working you'll need to start the helper bot.
 
@@ -40,7 +40,7 @@ since i never mentioned how to activate userbot on your account. here's a little
 
 4. follow all the prompts and do the needful.
 
-5. restart the bot with /restart command.
+5. restart the bot with /restart command.**
 
 **❤️ @ll_THE_BAD_BOT_ll ❤️**
 """
