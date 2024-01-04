@@ -369,19 +369,19 @@ async def zombies(_, message: Message):
 
 
 HelpMenu("admin").add(
-    "promote", "<𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾/𝗂𝖽/reply> <𝗍𝗂𝗍𝗅𝖾>", "Promote a user to admin.", "promote @ForGo10God hellboy"
+    "promote", "<𝗎𝗌𝖾𝗋𝗇𝖺𝗆𝖾/𝗂𝖽/reply> <𝗍𝗂𝗍𝗅𝖾>", "Promote a user to admin.", "promote @II_BAD_MUNDA_II Badmunda"
 ).add(
-    "demote", "<username/id/reply>", "Demote a user from admin.", "demote @ForGo10God"
+    "demote", "<username/id/reply>", "Demote a user from admin.", "demote @II_BAD_MUNDA_II"
 ).add(
-    "ban", "<username/id/reply> <reason>", "Ban a user from the group.", "ban @ForGo10God"
+    "ban", "<username/id/reply> <reason>", "Ban a user from the group.", "ban @II_BAD_MUNDA_II"
 ).add(
-    "unban", "<username/id/reply>", "Unban a user from the group.", "unban @ForGo10God"
+    "unban", "<username/id/reply>", "Unban a user from the group.", "unban @II_BAD_MUNDA_II"
 ).add(
-    "kick", "<username/id/reply> <reason>", "Kick a user from the group.", "kick @ForGo10God"
+    "kick", "<username/id/reply> <reason>", "Kick a user from the group.", "kick @II_BAD_MUNDA_II"
 ).add(
-    "mute", "<username/id/reply> <reason>", "Mute a user in the group", "mute @ForGo10God"
+    "mute", "<username/id/reply> <reason>", "Mute a user in the group", "mute @II_BAD_MUNDA_II"
 ).add(
-    "unmute", "<username/id/reply>", "Unmute a user in the group.", "unmute @ForGo10God"
+    "unmute", "<username/id/reply>", "Unmute a user in the group.", "unmute @II_BAD_MUNDA_II"
 ).add(
     "pin", "<reply>", "Pin the replied message in the group."
 ).add(
