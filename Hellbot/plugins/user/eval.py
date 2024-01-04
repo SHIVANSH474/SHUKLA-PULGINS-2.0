@@ -239,19 +239,19 @@ HelpMenu("eval").add(
     "<python code>",
     "Execute the python code and get results.",
     "eval print('hello world')",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Hellbot's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
 ).add(
     "exec",
     "<linux command>",
     "Execute the linux command and get results.",
     "exec ls -a",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Hellbot's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
 ).add(
     "shell",
     "<shell script>",
     "Execute the shell script and get results.",
     "shell echo hello world",
-    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Hellbot's responsibility!"
+    "Use this command with caution! Using this command senselessly and getting yourself in trouble is not Pbxbot 2.0's responsibility!"
 ).add(
     "fext",
     "<file extention>",
