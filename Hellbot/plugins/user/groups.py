@@ -184,7 +184,7 @@ async def new_channel(client: Client, message: Message):
     new_title = await hellbot.input(message)
 
     try:
-        new_channel = await client.create_channel(new_title, "Created by HellBot")
+        new_channel = await client.create_channel(new_title, "Created by Pbxbot 2.0")
         await hellbot.edit(
             message, f"**𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝗅𝗂𝗇𝗄:** [{new_channel.title}]({new_channel.username})"
         )
@@ -369,12 +369,12 @@ HelpMenu("groups").add(
     "chatadmins",
     "<chat id (optional)>",
     "Get the list of admins of mentioned chat.",
-    "chatadmins @Hellbot_Chats",
+    "chatadmins @ll_THE_BAD_BOT_ll",
 ).add(
     "chatbots",
     "<chat id (optional)>",
     "Get the list of bots of mentioned chat.",
-    "chatbots @Hellbot_Chats",
+    "chatbots @ll_THE_BAD_BOT_ll",
 ).add(
     "id",
     "<reply to message (optional)>",
@@ -384,7 +384,7 @@ HelpMenu("groups").add(
     "invite",
     "<username/id>",
     "Invite the mentioned user to this chat.",
-    "invite @ForGo10God",
+    "invite @II_BAD_MUNDA_II",
     "You can invite multiple users by giving their username/id separated by space.",
 ).info(
     "Group Menu"
