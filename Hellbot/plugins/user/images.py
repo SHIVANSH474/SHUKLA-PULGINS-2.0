@@ -213,7 +213,7 @@ HelpMenu("images").add(
     "image",
     "<query> ; <limit>",
     "Search for x images on google and upload them to current chat,",
-    "image hellbot ; 5",
+    "image Pbxbot 2.0 ; 5",
     "An alias of 'img' can also be used.",
 ).add(
     "wallpaper",
