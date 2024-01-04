@@ -53,10 +53,10 @@ async def help(client: Client, message: Message):
 @on_message("repo", allow_stan=True)
 async def repo(_, message: Message):
     REPO_TEXT = (
-        "__🍀 𝖱𝖾𝗉𝗈:__ [Github](https://github.com/The-HellBot/HellBot)\n\n"
-        "__🍀 Updates:__ @Its_HellBot\n"
-        "__🍀 Support:__ @HellBot_Chats\n\n"
-        "**By ©️ @HellBot_Networks**"
+        "__🍀 𝖱𝖾𝗉𝗈:__ [Github](https://github.com/Badhacker98/PBX_2.0/fork)\n\n"
+        "__🍀 Updates:__ @PBX_NETWORK\n"
+        "__🍀 Support:__ @ll_THE_BAD_BOT_ll\n\n"
+        "**By ©️ @ll_THE_BAD_BOT_ll**"
     )
     await hellbot.edit(message, REPO_TEXT, no_link_preview=True)
 
@@ -304,7 +304,7 @@ HelpMenu("help").add(
     "installall",
     "<channel username>",
     "Install all the plugins from the mentioned channel.",
-    "installall @plugins_for_hellbot",
+    "installall @ll_THE_BAD_BOT_ll",
     "Do not install plugins from untrusted sources, they can be a malware. We're not responsible for any damage caused by them.",
 ).add(
     "unload",
