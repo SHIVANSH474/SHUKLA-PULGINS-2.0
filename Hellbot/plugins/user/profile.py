@@ -252,15 +252,15 @@ HelpMenu("profile").add(
     "setbio",
     "<new bio>",
     "Set the bio of the bot.",
-    "setbio Embracing the Hellbot.",
+    "setbio Embracing the Pbxbot 2.0.",
     "To remove the bio dont pass any argument.",
 ).add(
-    "setname", "<new name>", "Set the name of the bot.", "setname HellBot"
+    "setname", "<new name>", "Set the name of the bot.", "setname Pbxbot 2.0"
 ).add(
     "setusername",
     "<new username>",
     "Set the username of the bot.",
-    "setusername HellBot",
+    "setusername Pbxbot 2.0",
     "To remove the username dont pass any argument.",
 ).add(
     "delpfp",
@@ -272,7 +272,7 @@ HelpMenu("profile").add(
     "github",
     "<username>",
     "Get the github profile of a user.",
-    "github hellboy-op",
+    "github Badhacker98",
 ).info(
     "Profile Module"
 ).done()
