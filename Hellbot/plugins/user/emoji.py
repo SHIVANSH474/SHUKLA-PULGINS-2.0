@@ -1,7 +1,13 @@
-from pyrogram import *
-from pyrogram.types import *
-from Hellbot import SUDO_USER
-from Hellbot.helper.basic import edit_or_reply, get_text
+import os
+
+from pyrogram import Client
+from pyrogram.errors import PeerIdInvalid, UserIsBlocked
+from pyrogram.raw.types import InputDocument, InputStickerSetItem
+from pyrogram.types import Message
+
+from Hellbot.core import ENV
+from Hellbot.functions.convert import image_to_sticker, video_to_sticker
+from Hellbot.functions.sticker import (
 
 
 rtext = [
