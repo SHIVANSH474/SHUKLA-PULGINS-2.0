@@ -60,7 +60,7 @@ def generate_alive_image(
     cropped_img = img_rotated.crop((left, top, right, bottom))
 
     img_rotated = ImageOps.fit(
-        cropped_img, (480, 480), method=0, bleed=0.0, centering=(0.5, 0.5)
+        cropped_img, (0, 0), method=0, bleed=0.0, centering=(0.5, 0.5)
     )
 
     img_rounded = add_rounded_corners(img_rotated)
