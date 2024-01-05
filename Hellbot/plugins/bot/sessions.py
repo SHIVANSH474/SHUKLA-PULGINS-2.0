@@ -23,7 +23,7 @@ async def session_menu(_, message: Message):
     )
 
 
-@hellbot.bot.on_message(filters.regex(r"New 💫") & Config.AUTH_USERS & filters.private)
+@hellbot.bot.on_message(filters.regex(r"New 👑") & Config.AUTH_USERS & filters.private)
 async def new_session(_, message: Message):
     await message.reply_text(
         "**𝖮𝗄𝖺𝗒!** 𝖫𝖾𝗍'𝗌 𝗌𝖾𝗍𝗎𝗉 𝖺 𝗇𝖾𝗐 𝗌𝖾𝗌𝗌𝗂𝗈𝗇",
@@ -96,7 +96,7 @@ async def new_session(_, message: Message):
 
 
 @hellbot.bot.on_message(
-    filters.regex(r"Delete ❌") & Config.AUTH_USERS & filters.private
+    filters.regex(r"Delete 🚫") & Config.AUTH_USERS & filters.private
 )
 async def delete_session(_, message: Message):
     all_sessions = await db.get_all_sessions()
@@ -150,7 +150,7 @@ async def rm_session_cb(client: Client, cb: CallbackQuery):
     await cb.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
 
 
-@hellbot.bot.on_message(filters.regex(r"List 📜") & Config.AUTH_USERS & filters.private)
+@hellbot.bot.on_message(filters.regex(r"List 🪧") & Config.AUTH_USERS & filters.private)
 async def list_sessions(_, message: Message):
     all_sessions = await db.get_all_sessions()
     if not all_sessions:
@@ -163,7 +163,7 @@ async def list_sessions(_, message: Message):
     await message.reply_text(text)
 
 
-@hellbot.bot.on_message(filters.regex(r"Home 🏠") & filters.private & Config.AUTH_USERS)
+@hellbot.bot.on_message(filters.regex(r"Home 📲") & filters.private & Config.AUTH_USERS)
 async def go_home(_, message: Message):
     await message.reply_text(
         "**Home 🏠**",
