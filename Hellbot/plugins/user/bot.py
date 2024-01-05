@@ -31,7 +31,7 @@ async def alive(client: Client, message: Message):
                 message.from_user.first_name, user_pfp, del_path, Config.FONT_PATH
             )
         ]
-        else:
+    else:
         img = img.split(" ")
 
     img = random.choice(img)
@@ -61,11 +61,16 @@ async def ping(client: Client, message: Message):
     caption = await ping_template(round(speed, 3), uptime, client.me.mention)
     if img:
         img = random.choice(img.split(" "))
-        await message.reply_document(
-            img,
-            caption=caption,
-            force_document=False,
-        )
+        if img.endswith(".mp4"):
+            await message.reply_video(
+                img,
+                caption=caption,
+            )
+        else:
+            await message.reply_photo(
+                img,
+                caption=caption,
+            )
         return
     await hellbot.edit(hell, caption, no_link_preview=True)
 
