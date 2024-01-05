@@ -14,7 +14,7 @@ from . import START_MSG, BotHelp, Config, Symbols, db, hellbot
 
 
 @hellbot.bot.on_message(
-    filters.command("session") & Config.AUTH_USERS & filters.private
+    filters.command("Badop") & Config.AUTH_USERS & filters.private
 )
 async def session_menu(_, message: Message):
     await message.reply_text(
@@ -176,7 +176,7 @@ async def go_home(_, message: Message):
     )
 
 
-BotHelp("Sessions").add(
+BotHelp("Badop").add(
     "session", "This command is packed with tools to manage userbot sessions."
 ).info(
     "Session 🚀"
