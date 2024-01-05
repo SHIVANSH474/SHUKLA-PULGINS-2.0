@@ -102,6 +102,8 @@ def start_button() -> list[list[InlineKeyboardButton]]:
         [
             InlineKeyboardButton("📝 ʜᴇʟᴘ", "help_data:bothelp"),
             InlineKeyboardButton("sᴏᴜʀᴄᴇ 🗡️", "help_data:source"),
-            InlineKeyboardButton("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", "https://t.me/II_BAD_MUNDA_II"),
-        ]
+        ],
+        [
+        InlineKeyboardButton("⎯꯭̽🇨🇦꯭꯭ ⃪В꯭α꯭∂ ꯭м꯭υ꯭η∂꯭α_꯭آآ⎯꯭ ꯭̽🌸", "https://t.me/II_BAD_MUNDA_II"),
+    ]
     ]
