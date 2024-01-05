@@ -17,12 +17,12 @@ def session_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         [
             [
-                KeyboardButton("New 💫"),
-                KeyboardButton("Delete ❌"),
+                KeyboardButton("ɴᴇᴡ 👑"),
+                KeyboardButton("ᴅᴇʟᴇᴛᴇ 🚫"),
             ],
             [
-                KeyboardButton("List 📜"),
-                KeyboardButton("Home 🏠"),
+                KeyboardButton("ʟɪsᴛ 🪧"),
+                KeyboardButton("ʜᴏᴍᴇ 📲"),
             ],
         ],
         resize_keyboard=True,
@@ -33,12 +33,12 @@ def start_keyboard() -> ReplyKeyboardMarkup:
     return ReplyKeyboardMarkup(
         [
             [
-                KeyboardButton("📟 Session"),
-                KeyboardButton("Force Sub ✨"),
+                KeyboardButton("📳 sᴇssɪᴏɴ"),
+                KeyboardButton(" ғᴏʀᴄᴇ sᴜʙ✨"),
             ],
             [
-                KeyboardButton("👥 Users"),
-                KeyboardButton("Others 📣"),
+                KeyboardButton("🧑‍🤝‍🧑 ᴜsᴇʀs"),
+                KeyboardButton("ᴏᴛʜᴇʀs 🛒"),
             ],
         ],
         resize_keyboard=True,
