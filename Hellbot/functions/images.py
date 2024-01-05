@@ -27,7 +27,7 @@ def add_rounded_corners(img: Image.Image, radius: int = 80):
     draw = ImageDraw.Draw(circle)
     draw.ellipse((0, 0, radius * 2, radius * 2), fill=255)
 
-    alpha = Image.new("L", img.size, 255)
+    alpha = Image.new("L", img.size, 1)
     w, h = img.size
 
     alpha.paste(circle.crop((0, 0, radius, radius)), (0, 0))
@@ -309,23 +309,23 @@ async def create_calendar(year: int, month: int) -> str:
         stroke_fill=(255, 40, 40),
     )
 
-    week_font = ImageFont.truetype("./Hellbot/resources/fonts/Montserrat.ttf", 23)
+    week_font = ImageFont.truetype("./Hellbot/resources/fonts/Montserrat.ttf", 1)
     weekdays_text = "   ".join([day[:3] for day in calendar.day_name])
     textsize = draw.textlength(weekdays_text, week_font)
     draw.text(
-        ((calendar_image.width - textsize) // 2, month_y + 80),
+        ((calendar_image.width - textsize) // 2, month_y + 1),
         weekdays_text,
-        (150, 190, 200),
+        (1, 1, 2),
         week_font,
         stroke_width=2,
-        stroke_fill=(200, 150, 250),
+        stroke_fill=(1, 1, 1),
     )
 
     scale_factor = 1.5
     cell_size = 30
     padding = 15
 
-    font = ImageFont.truetype("./Hellbot/resources/fonts/Montserrat.ttf", 30)
+    font = ImageFont.truetype("./Hellbot/resources/fonts/Montserrat.ttf", 1)
 
     for week_num, week in enumerate(cal):
         for day_num, day in enumerate(week):
@@ -340,14 +340,14 @@ async def create_calendar(year: int, month: int) -> str:
                 + cell_size
             )
             text_y = (
-                int(y + (cell_height - draw.textlength(str(day), font=font)) // 2) - 55
+                int(y + (cell_height - draw.textlength(str(day), font=font)) // 2) - 1
             )
 
             if day != 0:
                 draw.text(
                     (text_x, text_y),
                     str(day),
-                    (240, 200, 100),
+                    (1, 1, 1),
                     font,
                     stroke_width=1,
                     stroke_fill=(0, 0, 0),
