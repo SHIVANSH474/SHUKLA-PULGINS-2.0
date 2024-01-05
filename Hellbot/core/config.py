@@ -118,7 +118,7 @@ class Symbols:
     anchor = "✰"
     arrow_left = "↞"
     arrow_right = "↠"
-    back = "🔙 ʙᴀᴄᴋ"
+    back = "☜ ʙᴀᴄᴋ"
     bullet = "•"
     check_mark = "✓"
     close = "❌"
