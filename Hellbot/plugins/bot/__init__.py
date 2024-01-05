@@ -2,6 +2,7 @@ from Hellbot.core.clients import hellbot
 from Hellbot.core.config import Config, Symbols
 from Hellbot.core.database import db
 from Hellbot.plugins.help import BotHelp
+from Hellbot.plugins.USERBOTDEPLOY import USERBOTDEPLOY
 
 
 START_MSG = """
@@ -40,3 +41,20 @@ __» Feel free to contact us if you need any help regarding the bot.__**
 
 **❤️ @ll_THE_BAD_BOT_ll ❤️**
 """
+USERBOTDEPLOY = """
+**★USERBOT DEPLOY★**
+
+
+since i never mentioned how to activate userbot on your account. here's a little guide.
+
+1. deployment is successful and bot is working .
+
+2. send /session to your helper bot.
+
+3. now click on "new" button and add your account.
+
+4. follow all the prompts and do the needful.
+
+5. restart the bot with /restart command.
+
+**❤️ @ll_THE_BAD_BOT_ll ❤️**
