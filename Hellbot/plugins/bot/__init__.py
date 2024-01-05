@@ -2,7 +2,7 @@ from Hellbot.core.clients import hellbot
 from Hellbot.core.config import Config, Symbols
 from Hellbot.core.database import db
 from Hellbot.plugins.help import BotHelp
-from Hellbot.plugins.USERBOTDEPLOY import USERBOTDEPLOY
+from Hellbot.plugins.help import USERBOTDEPLOY
 
 
 START_MSG = """
