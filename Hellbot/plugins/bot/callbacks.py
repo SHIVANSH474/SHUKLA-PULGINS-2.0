@@ -260,7 +260,7 @@ async def help_close_cb(_, cb: CallbackQuery):
             ],
             
             [
-                InlineKeyboardButton("🇧 🇦 🇨 🇰 ", "help_data:start"),
+                InlineKeyboardButton("⇐ 𝗕𝗔𝗖𝗞 ⇚", "help_data:start"),
                 InlineKeyboardButton(Symbols.close, "help_data:botclose"),
             ],
         ]
