@@ -5,7 +5,7 @@ from Hellbot.core import ENV, db
 
 ALIVE_TEMPLATES = [
     (
-        "•────────────────•\n"
+        "•────────────────•\n\n"
         "•  𝐏ʙx 𝐁ᴏᴛ 2.0 𝐈s 𝐀ʟɪᴠᴇ        •\n"
         "╭────────────────•\n"
         "╰➢ ᴏᴡɴᴇʀ » {owner}\n"
