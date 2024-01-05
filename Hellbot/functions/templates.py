@@ -18,6 +18,17 @@ ALIVE_TEMPLATES = [
         "•────────────────•\n"
     ),
 ]
+def alive_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        [
+            [
+                KeyboardButton("📟 Session"),
+                KeyboardButton("Force Sub ✨"),
+            ]
+        ],
+        resize_keyboard=True,
+    )
+    
 
 PING_TEMPLATES = [
     """**😈 𝖯𝗂𝗇𝗀! 😈**
