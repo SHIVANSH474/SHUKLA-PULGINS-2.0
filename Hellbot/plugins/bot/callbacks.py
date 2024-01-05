@@ -245,15 +245,15 @@ async def help_close_cb(_, cb: CallbackQuery):
     elif action == "source":
         buttons = [
             [
-                InlineKeyboardButton("🚀 Deploy", url="https://github.com/Badhacker98/PBX_2.0/fork"),
+                InlineKeyboardButton("⚜️ ᴅᴇᴘʟᴏʏ", url="https://github.com/Badhacker98/PBX_2.0/fork"),
                 InlineKeyboardButton("", url="https://t.me/II_BAD_MUNDA_II"),
             ],
             [
-                InlineKeyboardButton("❤️ ᴘʙx ɴᴇᴛᴡᴏʀᴋ 💕", url="https://t.me/ll_THE_BAD_BOT_ll"),
+                InlineKeyboardButton("✏️ ᴘʙx ɴᴇᴛᴡᴏʀᴋ ", url="https://t.me/ll_THE_BAD_BOT_ll"),
             ],
             [
-                InlineKeyboardButton("🎙️ Support", url="https://t.me/THE_DRAMA_CLUB_01"),
-                InlineKeyboardButton("Updates 📣", url="https://t.me/PBX_NETWORK"),
+                InlineKeyboardButton("💎 sᴜᴘᴏᴏʀᴛ", url="https://t.me/THE_DRAMA_CLUB_01"),
+                InlineKeyboardButton("Updates 📌", url="https://t.me/PBX_NETWORK"),
             ],
             [
                 InlineKeyboardButton("🔙", "help_data:start"),
