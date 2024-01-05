@@ -18,11 +18,11 @@ def session_keyboard() -> ReplyKeyboardMarkup:
         [
             [
                 KeyboardButton("ɴᴇᴡ 👑"),
-                KeyboardButton("Delete 🚫"),
+                KeyboardButton("ᴅᴇʟᴇᴛᴇ 🚫"),
             ],
             [
-                KeyboardButton("List 🪧"),
-                KeyboardButton("Home 📲"),
+                KeyboardButton("ʟɪsᴛ 🪧"),
+                KeyboardButton("ʜᴏᴍᴇ 📲"),
             ],
         ],
         resize_keyboard=True,
