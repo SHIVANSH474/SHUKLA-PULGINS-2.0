@@ -19,7 +19,7 @@ class HellClient(Client):
     def __init__(self) -> None:
         self.users: list[Client] = []
         self.bot: Client = Client(
-            name="HellBot",
+            name="PBXBOT 2.0",
             api_id=Config.API_ID,
             api_hash=Config.API_HASH,
             bot_token=Config.BOT_TOKEN,
