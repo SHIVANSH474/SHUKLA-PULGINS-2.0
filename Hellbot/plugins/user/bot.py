@@ -31,14 +31,17 @@ async def alive(client: Client, message: Message):
                 message.from_user.first_name, user_pfp, del_path, Config.FONT_PATH
             )
         ]
-    else:
+        else:
         img = img.split(" ")
 
     img = random.choice(img)
     uptime = readable_time(time.time() - START_TIME)
     caption = await alive_template(client.me.first_name, uptime)
 
-    await message.reply_photo(img, caption=caption)
+    if img.endswith(".mp4"):
+        await message.reply_video(img, caption=caption)
+    else:
+        await message.reply_photo(img, caption=caption)
     await hell.delete()
 
     try:
