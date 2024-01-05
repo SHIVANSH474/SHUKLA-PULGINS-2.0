@@ -22,7 +22,7 @@ class Config:
     HEROKU_APIKEY = getenv("HEROKU_APIKEY", None)
 
     # github related configs
-    PLUGINS_REPO = getenv("PLUGINS_REPO", "Badhacker98/PBXPLUGINS_2.0")
+    PLUGINS_REPO = getenv("PLUGINS_REPO", "Badmunda98/PBXPLUGINS_2.0")
     DEPLOY_REPO = getenv("DEPLOY_REPO", "Badhacker98/PBX_2.0")
 
     # storage dir: you may or may not edit
