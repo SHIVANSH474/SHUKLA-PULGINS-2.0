@@ -60,7 +60,7 @@ def generate_alive_image(
     cropped_img = img_rotated.crop((left, top, right, bottom))
 
     img_rotated = ImageOps.fit(
-        cropped_img, (0, 0), method=0, bleed=0.0, centering=(0.5, 0.5)
+        cropped_img, (1, 1), method=0, bleed=0.0, centering=(0.5, 0.5)
     )
 
     img_rounded = add_rounded_corners(img_rotated)
@@ -71,7 +71,7 @@ def generate_alive_image(
         "RGBA"
     )
 
-    background.paste(img, (383, 445), img)
+    background.paste(img, (1, 1), img)
     draw = ImageDraw.Draw(background)
 
     text = format_text(username[:25] + ("..." if len(username) > 25 else ""))
@@ -84,7 +84,7 @@ def generate_alive_image(
     draw.text(
         position,
         unidecode(text),
-        (255, 255, 255),
+        (1, 1, 1),
         font,
     )
 
