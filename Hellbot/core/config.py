@@ -121,7 +121,7 @@ class Symbols:
     back = "☜ ʙᴀᴄᴋ"
     bullet = "•"
     check_mark = "✓"
-    close = "❌"
+    close = "🇨 🇱 🇴 🇸 🇪 "
     cross_mark = "✗"
     diamond_1 = "◇"
     diamond_2 = "◈"
