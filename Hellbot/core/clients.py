@@ -132,6 +132,9 @@ class HellClient(Client):
                     [
                         InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/PBX_NETWORK"),
                     ],
+                    [
+                    InlineKeyboardButton("🦋 𝐏ʙx 𝐁ᴏᴛ 𝐍ᴇᴛᴡᴏʀᴋ ❤️", url="https://t.me/PBX_NETWORK"),
+                    ],
                 ]
             ),
         )
