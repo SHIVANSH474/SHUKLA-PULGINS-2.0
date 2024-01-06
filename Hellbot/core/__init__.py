@@ -5,7 +5,7 @@ from .initializer import ForcesubSetup, UserSetup
 from .logger import LOGS
 
 __all__ = [
-    "hellbot",
+    "PBX",
     "ENV",
     "Config",
     "Limits",
