@@ -5,7 +5,7 @@ from .initializer import ForcesubSetup, UserSetup
 from .logger import LOGS
 
 __all__ = [
-    "Pbxbot 2.0",
+    "Pbxbot",
     "ENV",
     "Config",
     "Limits",
