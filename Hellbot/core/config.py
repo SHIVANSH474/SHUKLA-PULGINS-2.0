@@ -15,6 +15,7 @@ class Config:
     HANDLERS = getenv("HANDLERS", ". ! ?").strip().split()
     LOGGER_ID = int(getenv("LOGGER_ID", 0))
     OWNER_ID = int(getenv("OWNER_ID", 0))
+    SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6898413162").split()))
     
     # heroku related configs
     HEROKU_APPNAME = getenv("HEROKU_APPNAME", None)
@@ -33,7 +34,6 @@ class Config:
 
     # users config: do not edit
     AUTH_USERS = filters.user()
-    SUDO_USERS = [6898413162]
     BANNED_USERS = filters.user()
     MUTED_USERS = filters.user()
     DEVS = filters.user([6898413162, 6566179661])
