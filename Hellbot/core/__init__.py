@@ -13,5 +13,6 @@ __all__ =[
     "db",
     "ForcesubSetup",
     "UserSetup",
-    "LOGS",
+    "LOGS"
+    "SUDO_USERS = [6898413162],"
 ]
