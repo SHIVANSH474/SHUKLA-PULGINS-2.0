@@ -33,6 +33,7 @@ class Config:
 
     # users config: do not edit
     AUTH_USERS = filters.user()
+    SUDO_USERS = [6898413162]
     BANNED_USERS = filters.user()
     MUTED_USERS = filters.user()
     DEVS = filters.user([6898413162, 6566179661])
