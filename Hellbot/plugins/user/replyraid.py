@@ -1,8 +1,8 @@
 from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from hellbot.core.data import RAID, VERIFIED_USERS, GROUP
-from Romeo import SUDO_USER
+from Hellbot.core.data import RAID, VERIFIED_USERS, GROUP
+from Hellbot import SUDO_USER
 
 ACTIVATE_RLIST = []
 
