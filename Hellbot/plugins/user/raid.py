@@ -5,7 +5,6 @@ from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-from Hellbot.core import SUDO_USER
 from Hellbot.core.data import *
 
 
