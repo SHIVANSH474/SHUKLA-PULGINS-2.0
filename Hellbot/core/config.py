@@ -1,4 +1,15 @@
 from os import getenv
+from os import getenv
+
+#dont change file 
+API_ID = int(getenv("API_ID", "29908998"))
+API_HASH = getenv("API_HASH", "")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+OWNER_ID = int(getenv("OWNER_ID", ""))
+STRING_SESSION = getenv("STRING_SESSION", "")
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5392070730").split()))
+REPO_URL = getenv("REPO_URL", "https://github.com/badmunda98/PBXPLUGINS_2.0")
+BRANCH = getenv("BRANCH", "master")
 
 from dotenv import load_dotenv
 from pyrogram import filters
