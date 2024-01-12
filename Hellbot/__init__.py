@@ -34,7 +34,7 @@ client = Client(
 
 
 from pyrogram import Client
-from config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION
+from config2 import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION
 
 spam_chats = []
 SUDO_USER = SUDO_USERS
