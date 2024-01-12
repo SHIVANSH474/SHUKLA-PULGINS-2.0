@@ -1,7 +1,7 @@
 from random import choice
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from Romeo.helper.data import RAID, VERIFIED_USERS, GROUP
+from Romeo.functions.data import RAID, VERIFIED_USERS, GROUP
 from Hellbot import SUDO_USER
 
 ACTIVATE_RLIST = []
