@@ -2,7 +2,7 @@ import os
 import time
 from pyrogram import Client
 from platform import python_version
-from Hellbot.functions.config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION
+from Hellbot.core.config import API_ID, API_HASH, SUDO_USERS, OWNER_ID, BOT_TOKEN, STRING_SESSION
 
 import heroku3
 from pyrogram import __version__ as pyrogram_version
